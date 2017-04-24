@@ -2,6 +2,28 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById("btnSave").addEventListener("click", Save);
   document.getElementById("btnDelete").addEventListener("click", Delete);
   document.getElementById("btnShow").addEventListener("click", Show);
+
+  //DRAG AND DROP
+  let holder = document.getElementById("textContent");
+
+  holder.ondragover = function(e) {
+    e.preventDefault();
+  };
+
+  holder.ondrop = function(e) {
+    e.preventDefault();
+
+    let file = e.dataTransfer.files[0],
+      reader = new FileReader();
+    reader.onload = function(event) {
+      console.log(event.target);
+      holder.value = event.target.result;
+    };
+    console.log(file);
+    reader.readAsText(file);
+    return false;
+  };
+
 });
 
 let request = indexedDB.open("database");
