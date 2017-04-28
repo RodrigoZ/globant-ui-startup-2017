@@ -1,0 +1,54 @@
+
+body{
+	text-align: center;
+
+}
+
+.wrapper{
+	 width:150px;
+    margin:0 auto;
+}
+
+.formulary{
+	text-align: center;
+	height: auto;
+	
+	
+}
+
+ .formulary b{
+	float:left;
+	padding:0px;
+	
+}
+
+ .formulary label{
+	float:left;
+	padding:10px;
+	
+}
+
+ .formulary textarea{
+	float:left;
+	padding:20px;
+	
+}
+
+ .formulary div{
+	float:left;
+	padding:20px;
+	
+}
+
+ .formulary select{
+	float:left;
+	padding:10px;
+	
+}
+
+.formulary button{
+   display:inline-block;
+   position: relative;
+   top:10px;
+   padding:5px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "babel-compiledir": "babel --presets es2015 js --out-dir js-babel",
+    "babel-out": "babel --presets es2015 js/function.js --out-file js-babel/functioned.js",
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babelify": "6.4.0",
+    "browserify": "^14.3.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

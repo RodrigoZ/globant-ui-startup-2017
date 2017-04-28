@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Luca Bartolacci">
+        <meta name="keywords" content="Javascript">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="img/smile.png">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <section id="hello-world" class="hide">
+            <h1>Hello World!</h1>
+        </section>
+        <section>
+            <div class='center white-w-shadow'>
+                <div id="content">
+                <h2 id="j-title">Lorem ipsum:</h2>
+                <p id="joke">Lorem ipsum dolor sit amet, cum an tritani dissentiunt reprehendunt, solum possit scaevola ei sit, vim in tation invenire imperdiet. Justo solet an pro. In invidunt disputando ius, pri ei accusam mentitum volutpat. Eam veri aeque graece ne, te mea scaevola quaestio oportere, et mel paulo oratio eligendi.</p>
+                </div> 
+            </div>
+        </section>
+        <div id="input-data">
+            <select id="method">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+            </select>
+            <div class="button" id="plus">More data fields</div>
+            <div id="d-fields-section">
+                <input class="datafield" id="d-field0" type="text" title="Add Data, no more than 50 char" pattern="{,50}">
+            </div>
+            <div id="request-header" class="hide">
+                <label for="header">*Input Header:</label>
+                <input class="datafield" type="text" title="Add the header" pattern="{,2000}" name="header" id="header">
+                <label for="value">*Input value:</label>
+                <input class="datafield" type="text" title="Add the value for that header." pattern="{,2000}" name="value" id="value">
+            </div>
+        </div>
+        <div id="json">
+            <label for="url">*Add the URL:</label>
+            <input type="text" title="Add the URL + the data, no more than 2000 characters" pattern="{,2000}" name="url" id="url">
+        </div>
+
+        <ul id="list">
+        </ul>
+        <div class="wrap-button">
+            <div id="promises" class="button" title="Search for some json, Yahr! Or jokes :)">Click me!</div>
+            <div id="table" class="button" title="Random table of random elems, max 7x7">Show Table</div>
+        </div>
+        <div id="newTable" class="hide"></div>
+        <script type="text/javascript" src="js/function.js"></script>
+    </body>
+</html>
+

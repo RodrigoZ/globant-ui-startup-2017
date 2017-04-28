@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="Aguantaaa, Image, Video">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Luca Bartolacci">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Luca Bartolacci</title>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>Some Form</h1>   
+                <nav>
+                    <a href='form.html'>Form</a>
+                    <a href='basic.html'>List</a>
+                    <a href='table.html'>Table</a>
+                    <a href='multimedia.html'>Media</a>
+                </nav>
+            </header>
+            <div class='center white'>
+                <form class="form" action="#" method="POST">
+                    <div>
+                        <label for="name">*First name:</label>
+                        <input type="text" title="Only letters and more than 3 characters" pattern="[a-zA-Z]{3,}" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="lastname">*Last name:</label>
+                        <input type="text" title="Only letters and more than 3 characters" pattern="[a-zA-Z]{3,}" name="lastname" id="lastname" required>
+                    </div>
+                    <div>
+                        <label for="email">*Email:</label>
+                        <input type="email" title="No capital letters and the last part 2 or 3 characters tops" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                    </div>
+                    <div>
+                        Select your favorite sport:
+                        <select name="sport">
+                            <option value="basket">Basket</option>
+                            <option value="tenis">Tenis</option>
+                            <option value="rugby">Rugby</option>
+                            <option value="futbol">Futbol</option>
+                        </select>
+                    </div>
+                        <label for="bio">Include a bio:</label>
+                    <div>
+                        <textarea name="bio" id="bio" rows="5" cols="20" placeholder="Put here something about yourself"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset Values">
+                    </div>
+                </form>
+                <p class="register">The fields with * are required</p>
+            </div>
+        </div>
+    </body>
+</html>

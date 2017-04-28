@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Topic 0: Ejericio VI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; color: lightcoral"> Ejercicio VI</h1>
+    </header>
+    <div class="container">
+        <h2 style="font-family: Arial, Helvetica, sans-serif; color:cornflowerblue; text-align: center">Sign Up Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="FirstName">First Name:</label>
+                <input type="text" class="form-control" id="FirstName" placeholder="Enter First Name" required pattern="[A-Za-z]+" title="Solo debe contener letras">
+            </div>
+            <div class="form-group">
+                <label for="LastName">Last Name:</label>
+                <input type="text" class="form-control" id="LastName" placeholder="Enter Last Name" pattern="[A-Za-z]+" title="Solo debe contener letras" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="Birthday">Birthday:</label>
+                <input type="date" data-date-inline-picker="false" class="form-control" id="Birthday" required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Deportes">Sports:</label>
+                <select id="Deportes" class="form-control">
+                <option value="soccer">Soccer</option>
+                <option value="rugby">Rugby</option>
+                <option value="tenis">Tenis</option>
+                <option value="hockey">Hockey</option>
+                <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Bio">Biografy:</label>
+                <textarea id ="Bio" class="form-control" name="message" rows="5" cols="30" placeholder="Write a small bio."></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            <button type='reset' value='Reset' name='reset' class="btn btn-default">Reset</button>
+            <br><br><br>
+        </form>
+    </div>
+</body>
+
+</html>

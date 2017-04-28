@@ -1,0 +1,82 @@
+.container{
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; 
+}
+
+header{
+  text-align: center;
+  background: #99ccff;
+}
+
+.hiddenDivForJoke{
+  opacity: 0;
+  transition: opacity 3s;
+  display: table;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background:  #33bbff;
+}
+
+.visibleDivForJoke{
+  opacity: 1;
+ /* transition: opacity 3s;
+  display: table;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background:  #33bbff;*/
+}
+
+.jokeWrap{
+  border-color: #33bbff;
+  border-style: dashed;
+}
+
+#btnGetJoke{
+  display: table;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto; 
+ }
+
+.jokeOK{
+  background: #66ffcc;
+  
+}
+
+.jokeError{
+  background: red;
+}
+
+#btnSearchGitHub{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+#queryBox{
+  margin-left: 2%
+}
+
+.list{
+  margin-top: 0%;
+  width: auto;
+  float: right;
+  margin-right: 5%;
+  border-color: #33bbff;
+  border-style: dashed; 
+}
+
+footer{
+  margin-top: 20%;
+  clear: both;
+  text-align: center;
+  font-style: italic;
+  background: #99ccff;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}

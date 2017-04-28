@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial.scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="scripts/main.js" type="text/javascript"></script>
+
+  <title>01-index</title>
+
+</head>
+<!--this goes inside the body tag => onload="fadeIn()"-->
+
+<body onload="load_9()">
+
+  <div>
+    <section id="joke">
+      <h3>Click on a button</h3>
+      hello world!
+    </section>
+    <button type="button" onclick="go_to_index()">go to index</button>
+    <button type="button" onclick="loadXMLDoc()">get a joke</button>
+    <button type="button" onclick="promise_joke()">get a joke but using promises!</button>
+    <button type="button" onclick="insert_table()">insert a table</button>
+    <div class="filter">
+      <input type="text" id="my_input" onkeyup="exercise_10()" placeholder="Filter by repo name">
+
+      <ul id="full_name_list">
+      </ul>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

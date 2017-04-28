@@ -1,0 +1,286 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    font: 16px arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    bottom: 10%;
+    top: 20%;
+    left: 0px;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+aside {
+    bottom: 10%;
+    top: 20%;
+    right: 0;
+    float: right;
+}
+
+article{
+    width: 100%;
+}
+
+section {
+    bottom: 10%;
+    top: 20%;
+    left: 33.3333%;
+}
+
+.middle {
+    width: 33.3333%;
+    position: absolute;
+}
+
+.bot {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 10%;
+    display: inline-table;
+}
+
+.top {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 20%;
+}
+
+.grid {
+    display: grid;
+}
+
+/*  Exercises!  */
+
+.header {
+    font: 46px arial, sans-serif;
+    background-color: magenta;
+}
+
+.footer {
+    font: 10px arial, sans-serif;
+    background-color: magenta;
+}
+
+.content {
+    font: 14px arial, sans-serif;
+}
+
+.navigation {
+    background-color: blue;
+}
+
+.sidebar {
+    font: 10px arial, sans-serif;
+    background-color: magenta;
+}
+
+.header h1 {
+    margin: 0px;
+}
+
+
+/* Mock-Up css */
+
+.hero-left {
+    position: absolute;
+    left: 0px;
+    width: 40%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.hero-right {
+    position: absolute;
+    right: 0px;
+    text-align: justify;
+    height: 100%;
+    width: 60%;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.img {
+    height: 50%;
+    width:100%;
+    padding: 5px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Hover img description */
+
+.screen {
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    border-radius: 0;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    z-index: 1000;
+  -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+.screen:hover {
+  opacity: 1
+}
+.title {
+  color: #fff;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+  margin-left: -30px;
+}
+.screen:hover .title {
+  margin-left: 0;
+}
+p .title {
+  font-size: 2em;
+  padding: 5%;
+}
+.screen.fade-in .title {
+  margin-left: 0;
+}
+.screen.fade-in:hover {
+}
+
+/* Column background */
+
+.column-01 {
+    left: 16%;
+}
+
+.column-02 {
+    left: 33%;
+}
+
+.column-03 {
+    left: 50%;
+}
+
+.column-04 {
+    left: 66%;
+}
+
+.column-05 {
+    left: 83.33334%;
+}
+
+.column {
+    position: absolute;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.075);
+    height: 100%;
+    top: 0px;
+}
+
+/* CSS media query */
+
+@media only screen and (max-width: 960px) {
+    .top {
+        height: 200px;
+    }
+
+    .middle {
+        left: 25%;
+        bottom: inherit;
+        width: 50%;
+    }
+
+    nav {
+        top: 250px
+    }
+
+    section {
+        top:670px;
+    }
+
+    aside {
+        top: 1100px;
+    }
+
+    .column {
+        height: 1600px;
+    }
+
+    .img {
+        height: 210px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-left {
+        padding: 0px;
+        left: 5%;
+    }
+
+    .hero-right {
+        top: 45px;
+        left: 7%;
+        width: 90%;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .middle {
+        left: 15%;
+        bottom: inherit;
+        width: 70%;
+    }
+
+    nav {
+        top: 300px
+    }
+
+    section {
+        top:725px;
+    }
+
+    aside {
+        top: 1150px;
+    }
+
+
+}

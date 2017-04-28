@@ -1,0 +1,16 @@
+{
+  "name": "02-oop-inheritance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "movie.js",
+  "scripts": {
+    "lo q corra": lo que quierro correr"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0"
+  }
+}

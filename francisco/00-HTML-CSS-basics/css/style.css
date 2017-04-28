@@ -1,0 +1,75 @@
+
+header {
+  display:block;
+  padding: 2px;
+  margin: 8px;
+}
+
+aside {
+  display:inline-block;
+  width:20%;
+
+  float:right;
+  margin-right: 8px;
+  height:inherit;
+}
+
+nav {
+  display:inline-block;
+  width:20%;
+  float:left;
+  margin-left: 8px;
+  height:inherit;
+}
+
+section {
+  margin-left: 23%;
+  margin-right: 23%;
+  padding: 1%;
+}
+
+article {
+  margin:1%;
+}
+
+footer {
+  display: inline-block;
+  width:100%;
+  margin: 8px;
+}
+
+.header {
+  font-size: 46px
+}
+
+.footer {
+  font-size: 10px
+}
+
+.content {
+  font-size: 14px
+}
+
+.navigation {
+  font-size: 12px
+}
+
+.sidebar {
+  font-size: 10px
+}
+
+[class$='r'] {
+  background:magenta;
+}
+
+[class*='a']:not([class$='r']){
+  background:blue;
+}
+
+html {
+  font-weight: bold;
+}
+
+oh-no-inline-styles {
+  background:green !important;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>Signup form</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Signup form">
+  <meta name="author" content="Matthieu">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="assets/css/signup.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+<div class="wrapper">
+
+	<form class="formulary">
+
+	
+		<label for="firstName">
+			<b>First name</b>
+			<input  id="firstName" type="text" placeholder="Enter first name" pattern="[A-Za-z]{1,15}"  name="firstName" required>
+		</label>
+		
+		<label for="lastName">
+			<b>Last name</b>
+			<input id="lastName" type="text" placeholder="Enter last name" pattern="[A-Za-z]{1,15}"  name="lastName" required>
+		</label>
+		
+		<label for="email">
+			<b>Email</b>
+			<input id="email" type="email" placeholder="Enter your email" pattern="[A-Za-z]{1,15}" maxlength="15" name="email" required>
+		</label>
+		
+		<label for="birthday">
+			<b>Birthday</b>
+			<input id="birthday" type="date" name="birthday">
+		</label>
+		
+		<label for="sport">
+			<b>What is your favorite sport?</b>
+			<select id="sport">
+				<option value="Running">Running</option>
+				<option value="Swimming">Swimming</option>
+				<option value="Play Football">Play Football</option>
+				<option value="Other">Other</option>
+			</select>
+		</label>
+		
+		<label for="userDescription">
+			<b>Tell us about yourself (optional)</b>
+			<textarea id="userDescription" rows="4" cols="20" name="userDescription"></textarea>
+		</label>
+
+		<span>
+			<button type="reset" value="Reset">Reset</button>  
+			<button type="submit">Sign Up</button>
+		</span>
+
+	</form>
+</div>
+</body>
+</html>

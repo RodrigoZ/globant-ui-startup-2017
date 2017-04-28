@@ -1,0 +1,106 @@
+.header{
+  font-size: 46px;
+  background: darkgreen;
+  color: white;
+}
+
+.generalContainer{
+
+  position:relative;
+  height:500px;
+}
+
+.navigation{
+  position: absolute;
+  left: 0%;
+  width: 20%;
+  background: #ccffee;
+  height: 50%;
+  font-size: 12px;
+}  
+
+.content{  
+  position: absolute;
+  height: 100%;
+  left: 20%;
+  width: 60%;
+}
+
+.sectionHeader{
+  position: absolute;
+  background: #ccffee;
+  height: 50px;
+  width: 98%;
+  left: 1%;
+
+}
+
+.article{
+  position: absolute;
+  background: #ccffee;
+  height: 400px;
+  width: 98%;
+  margin-top: 54px;
+  left: 1%;
+
+}
+
+.sectionFooter{
+  position: absolute;
+  background: #ccffee;
+  height: 36px;
+  width: 98%;
+  left: 1%;
+  margin-top: 458px;
+
+ 
+}
+
+.sidebar{
+  position: absolute;
+  left: 80%;
+  width: 20%;
+  background: #ccffee;
+  height: 50%;
+  font-size: 10px;
+}
+
+body{
+  font-size: 14px;
+  font-family: "Trebuchet MS";
+  font-weight: bolder;
+}
+
+.footer{
+  font-size: 10px;
+  margin-top: 10px;
+  background: darkgreen;
+  color: white;
+  height: 45px;
+}
+
+footer{
+  font-style: italic;
+}
+
+header, footer {
+    text-align: center;
+
+}
+
+.trying:hover{
+  color: blue
+}
+
+[class*="a"]:not([class*="r"]){
+  background: blue;
+}
+
+[class$="r"]{
+  background: magenta;
+}
+
+.oh-no{
+  background: green !important;
+}
+

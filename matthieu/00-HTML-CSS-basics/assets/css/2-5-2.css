@@ -1,0 +1,171 @@
+
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+   
+}
+
+header{
+	background: black;
+    top:0px;
+	left:0px;
+	position:relative;
+	width:100%;
+	height:30px;
+}
+
+.title{
+	 color: white;
+}
+
+p{
+	margin: 0px;
+}
+
+
+
+.showcase{
+	float:left;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+
+
+
+.text{
+	float:right;
+	width:600px;
+	margin-top: 40px;
+	margin-right:300px;
+	font-size:18px;
+	
+}
+
+
+.imagetext{
+	font-size: 20px;
+	position:absolute;
+	top:55px;
+	text-align: center;
+	color:red;
+    opacity: 0;
+	height:100%;
+	width:400px;
+}
+
+.imagetext:hover{
+	opacity: 1;
+	 -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.img div{
+   display:inline-block;
+   position: relative;
+   padding-left:25px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.img:hover{
+  opacity: 1;
+}
+
+.pictures{
+	position:relative;
+	top:170px;
+	left:0px;
+	display:inline-block;
+	
+}
+
+
+@media screen and (max-width: 1140px) {
+    body{
+        background-color: blue;
+		text-align: center;
+    }
+
+   .showcase{
+	   float:none;
+	   margin-top: 40px;
+	   margin-left: 0px;
+   }
+
+
+    .text{
+	position:absolute;
+	left:5%;
+	float:none;
+	width:90%;
+	margin-top: 40px;
+	font-size:18px;
+	margin-right:0px;
+   }
+
+   .pictures{
+	top:220px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 870px) {
+    body {
+        background-color: lightgreen;
+		
+    }
+
+	 .showcase{
+	   float:none;
+	   margin-top: 40px;
+	   margin-left: 0px;
+   }
+
+	 .pictures{
+	top:220px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 635px) {
+ body {
+        background-color: red;
+		
+    }
+
+ .showcase{
+	   float:none;
+	   margin-top: 40px;
+	     margin-left: 0px;
+   }
+
+
+   .text{
+	float:none;
+	width:90%;
+	margin-top: 40px;
+	margin-right:0px;
+	font-size:18px;
+   }
+
+    .pictures{
+	top:260px;
+	}
+
+}
+

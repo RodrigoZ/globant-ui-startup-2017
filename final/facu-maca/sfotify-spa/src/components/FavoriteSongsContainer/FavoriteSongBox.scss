@@ -1,0 +1,16 @@
+.FavoriteSongBox {
+  border: 1px solid black ;
+  width:35%;
+}
+
+.FavoriteSongBox-album {
+  display: inline;
+  float:left;
+  width: 32%;
+}
+
+.FavoriteSongBox-description {
+  display: inline;
+  float:right;
+  width: 68%;
+}

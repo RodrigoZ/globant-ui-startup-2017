@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Sign up form</title>
+</head>
+<body>
+<header>
+	<h1>Sign up</h1>
+	<h2>Please fill out this form</h2>
+</header>
+	<form action="./submited.html" method="post">
+		<p>
+        <label for="firstname"> First name: </label>
+	  	<input type="text" name="firstName" id="firstname" pattern="[A-Za-z]+" title="Letters only, please" required>
+        </p>
+        <p>
+	  	<label for="lastname"> Last name: </label>
+	  	<input type="text" name="lastName" id="lastname" pattern="[A-Za-z]+" title="Letters only, please" required>
+        </p>
+        <p>
+	  	<label for="email">E-mail:</label>
+  		<input type="email" name="email" id="email" required>
+        </p>
+        <p>
+  		<label for="bday">Birthday:</label>
+  		<input type="date" name="bday" id="bday" required>
+        </p>
+        <p>
+  		<label for="sport">Favorite sport:</label>
+  		<select id="sport" name="sport">
+  			<option value="tennis">Tennis</option>
+  			<option value="football">Football</option>
+  			<option value="basketball">Basketball</option>
+ 			<option value="soccer">Soccer</option>
+ 			<option value="volleyball">Volleyball</option>
+ 			<option value="other">Other</option>
+		</select>
+        </p>
+        <p>
+		<label for="bio" >Bio: </label><br>
+		 <textarea name="bio" rows="4" cols="50" placeholder="Please describe yourself here..." id="bio"></textarea>
+         </p>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+		
+	</form>
+
+</body>
+</html>

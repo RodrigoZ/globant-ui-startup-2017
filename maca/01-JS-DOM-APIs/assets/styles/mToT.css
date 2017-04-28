@@ -1,0 +1,27 @@
+table{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+
+}
+table, td{
+	border: 1px solid black;
+}
+
+button{
+	width: 10%;
+	margin-left: 45%;
+	margin-right: 45%;
+	margin-top: 5%;
+}
+
+label{
+	display: table;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+

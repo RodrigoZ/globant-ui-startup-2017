@@ -1,0 +1,28 @@
+#hidden {
+  opacity: 0;
+  -webkit-animation: opacity 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: opacity 2s ease-in; /* Firefox < 16 */
+    -ms-animation: opacity 2s ease-in; /* Internet Explorer */
+     -o-animation: opacity 2s ease-in; /* Opera < 12.1 */
+        /*animation: opacity 2s;*/
+        transition: opacity 2s ease-in;
+}
+
+#hwSection {
+  text-align: center;
+  opacity: 0;
+  -webkit-animation: opacity 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: opacity 2s ease-in; /* Firefox < 16 */
+    -ms-animation: opacity 2s ease-in; /* Internet Explorer */
+     -o-animation: opacity 2s ease-in; /* Opera < 12.1 */
+        /*animation: opacity 2s;*/
+        transition: opacity 2s ease-in;
+}
+
+#btn {
+  margin:auto;
+}
+
+#repoList {
+  float : right;
+}

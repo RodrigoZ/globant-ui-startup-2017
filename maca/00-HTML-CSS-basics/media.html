@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multimedia</title>
+</head>
+<body>
+	<section>
+		<div>
+			<header><h2>Here goes an image</h2></header>
+			<img src="http://www.siliconweek.com/wp-content/uploads/2015/08/globantpi.jpg" alt="Globant logo" height="150" width="150">
+		</div>
+
+		<div>
+			<header><h2>Here go some videos</h2></header>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/8sZQqVSy-fU" allowfullscreen></iframe>
+			<h3>autoplay</h3>
+			<video width="300" height="200" controls autoplay="autoplay" muted="muted">
+				<source src="media/small.webm" type="video/webm">
+				<source src="media/small.mp4" type="video/mp4"> 
+				<source src="media/small.ogv" type="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+			<h3>poster - loop</h3>
+			<video width="300" height="200" controls poster="media/pic.jpeg" loop="loop">
+				<source src="media/small.webm" type="video/webm">
+				<source src="media/small.mp4" type="video/mp4"> 
+				<source src="media/small.ogv" type="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+
+		<div>
+			<header><h2>Here goes an audio</h2></header>
+			<audio controls>
+				 <source src="media/horse.wav" type="audio/wav">
+			</audio>
+		</div>
+	</section>
+
+</body>
+</html>

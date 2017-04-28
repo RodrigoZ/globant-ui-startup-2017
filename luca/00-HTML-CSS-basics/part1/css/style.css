@@ -1,0 +1,131 @@
+html { 
+    background: url(../img/front.jpg) no-repeat center center fixed; 
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0px;
+}
+
+table {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-collapse: collapse;
+}
+
+th{
+    color: #1fbed6;
+    font-size: 30px;
+    padding-bottom: 10px; 
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+h1 {
+    font: 20px arial, sans-serif;
+    color: white;
+}
+
+ol {
+    display: inline-grid;
+}
+
+p {
+    font: 15px arial, sans-serif;
+    color: white;
+    margin-top: 0px;
+}
+
+.register{
+    color: red;
+}
+
+header h1 {
+    float: left;
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    font: 20px arial, sans-serif;
+}
+
+div .center {
+    position: absolute;
+    left: 0px;
+    top: 15%;
+    right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font: 16px arial, sans-serif;
+}
+
+.white {
+    background-color: white;
+    width: 500px;
+    -moz-box-shadow:9px 9px 3px #222;
+    -webkit-box-shadow:9px 9px 3px #222;
+    -o-box-shadow:9px 9px 3px #222;
+    box-shadow:9px 9px 3px #222;
+    border-radius: 4px;
+}
+
+.form div {
+    padding: 10px;
+    display: inherit;
+}
+
+nav {
+    list-style-type: none;
+    font: 16px arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.4)
+}
+
+nav a {
+    float: right;
+    display: inline-block;
+    color: #111;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+nav div {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding: 26px 20px;
+}
+
+@media screen and (orientation:portrait) {
+    div .white {
+        background-color: transparent;
+        width: 250px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none;
+    }
+}
+

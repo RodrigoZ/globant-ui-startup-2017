@@ -1,0 +1,85 @@
+    body{
+      background: #333333;
+      color: white;
+    }
+
+    .innerContainer{
+      position: static;
+      background-color: #696969;
+      width: auto;
+      height: 500px;
+      border-radius: 10px;
+      padding: 10px; 
+      margin-left: 200px;
+      margin-right: 200px; 
+      margin-top: 20px;
+    }
+    .nav {
+      position: static;
+      background-color: #696969;
+      text-align: center;
+      width: 150px;
+      height: 500px; 
+      border-radius: 10px;
+      float: left;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+    .aside{
+      position: static;
+      background-color: #696969;
+      text-align: center;
+      width: 150px;
+      height: 500px;
+      border-radius: 10px;
+      float: right;
+      margin-right: 10px;
+      margin-top: 20px;
+
+    }
+    .header{
+      position: static;
+      width: auto;
+      height: 100px;
+      background-color: #696969;
+      text-align: center;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 25px;
+    }
+    .innerHeader{
+      background-color: #808080;
+      border-radius: 10px;
+    }
+
+    .footer{
+      position: relative;
+      width: auto;
+      height: 100px;
+      text-align: center;
+      background-color: #696969;
+      border-radius: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .innerFooter{
+      bottom: 0;
+      width: auto;
+      height: 100px;
+      background-color: #808080;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .article{
+      background-color: #808080;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .section{
+      text-align: center;
+      margin-left: 200px;
+      background-color: #696969; 
+      vertical-align: text-top; 
+    }

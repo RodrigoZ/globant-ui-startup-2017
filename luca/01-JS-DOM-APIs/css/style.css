@@ -1,0 +1,155 @@
+html { 
+    background: url(../img/front.png) no-repeat center center fixed; 
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font: 40px arial, sans-serif;
+    color: #ffffff;
+}
+
+p {
+    font: 15px arial, sans-serif;
+    margin-top: 0px;
+}
+
+ul {
+    color: white;
+    float: right;
+}
+
+table {
+    border: solid;
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    margin-left: 42%;
+
+    text-align: center;
+}
+
+label {
+    color: #ffffff;
+}
+
+input {
+    width: 400px;
+}
+
+select {
+    margin-bottom: 25px;
+}
+
+.center {
+    position: absolute;
+    left: 0px;
+    top: 25%;
+    right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font: 16px arial, sans-serif;
+}
+
+.white-w-shadow {
+    background-color: #ffffff;
+    width: 500px;
+    -moz-box-shadow:9px 9px 3px rgba(83, 93, 128, 0.83);
+    -webkit-box-shadow:9px 9px 3px rgba(83, 93, 128, 0.83);
+    -o-box-shadow:9px 9px 3px rgba(83, 93, 128, 0.83);
+    box-shadow:9px 9px 3px rgba(83, 93, 128, 0.83);
+    border-radius: 4px;
+}
+
+/* Fade in effect with javascript */
+
+.hide {
+    opacity: 0;
+}
+
+#hello-world {
+    text-align: center;
+    -webkit-transition: opacity 1s linear;
+    -o-transition:opacity 1s linear;
+    -moz-transition:opacity 1s linear;
+}
+
+#json {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 650px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 60%;
+    color: #ffffff;
+}
+
+.datafield {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wrap-button {
+    position: absolute;
+    top: 65%;
+    left: 0px;
+    right: 0px;
+    width: 320px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-flex;
+}
+
+.black-text {
+    color: black;
+}
+
+.red-text {
+    color: red;
+}
+
+.button {
+    color: #ffffff;
+    border: 2px solid;
+    width: 180px;
+    height: 30px;
+    padding-top: 10px;
+    font: 19px arial, sans-serif;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    color: #C0C0C0;
+}
+
+#newTable {
+    color: #ffffff;
+}
+
+#d-fields-section {
+    display: grid;
+}
+
+#request-header {
+    display: grid;
+}
+
+#input-data {
+    margin-left: 30px;
+    text-align: center;
+    width: 200px;
+}
